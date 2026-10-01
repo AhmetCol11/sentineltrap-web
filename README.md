@@ -12,7 +12,7 @@
 
 ## 📸 Dashboard Preview
 
-![SentinelTrap Dashboard](dashboard/dashboard.png)
+![SentinelTrap Dashboard](dashboard.png)
 
 ---
 
