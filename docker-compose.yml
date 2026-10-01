@@ -1,0 +1,18 @@
+version:  3.8
+services:
+  flask:
+    build: .
+    container_name: sentineltrap-flask
+    command: python app/server.py
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/app
+  streamlit:
+    build: .
+    container_name: sentineltrap-dashboard
+    command: streamlit run dashboard/app.py --server.port 8501 --server.enableCORS false
+    ports:
+      - 8501:8501
+    volumes:
+      - .:/app
