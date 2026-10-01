@@ -2,7 +2,7 @@
 
 > **A professional Web Honeypot & Cyber Security Analysis Panel** — Built for CV-level portfolio demonstration.
 
-![SentinelTrap Dashboard](dashboard.png)
+![SentinelTrap Dashboard](dashboard/dashboard.png)
 
 ---
 
